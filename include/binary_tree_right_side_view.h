@@ -1,17 +1,10 @@
-//
-// Created by 盛枫 on 2024/10/11.
-//
+#pragma once
 
-std::vector<int> rightSideView(TreeNode* root) {
-    if(root == nullptr) {
-        return vector<int>();
-    }
+#include <vector>
+#include "tree_node.h"
+using namespace std;
 
-    queue<TreeNode*> que;
-    que.push(root);
-    std::vector<int> ans;
-
-    while(!que.empty()) {
-
-    }
-}
+class RightSideView {
+public:
+    std::vector<int> rightSideView(TreeNode* root);
+};

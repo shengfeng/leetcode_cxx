@@ -15,4 +15,9 @@ enable_testing()
 
 add_subdirectory(tests)
 
-add_executable(leetcode main.cpp src/basic_calculator.cpp)
+add_executable(leetcode
+        main.cpp
+        src/basic_calculator.cpp
+        src/binary_tree_right_side_view.cpp
+        src/tree_node.cpp
+)
