@@ -1,5 +1,4 @@
-#ifndef BASIC_CALCULATOR_H
-#define BASIC_CALCULATOR_H
+#pragma once
 #include <string>
 
 using namespace std;
@@ -10,5 +9,3 @@ public:
     ~BasicCalculator();
     int calculate(string s);
 };
-
-#endif
