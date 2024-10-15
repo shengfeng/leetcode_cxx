@@ -9,6 +9,8 @@ add_executable(testcases
         test_binary_tree_right_size.cpp
         ${PROJECT_SOURCE_DIR}/src/binary_tree_right_side_view.cpp
         ${PROJECT_SOURCE_DIR}/src/tree_node.cpp
+        test_koko_eating_bananas.cpp
+        ${PROJECT_SOURCE_DIR}/src/koko_eating_bananas.cpp
 )
 
 target_link_libraries(testcases
