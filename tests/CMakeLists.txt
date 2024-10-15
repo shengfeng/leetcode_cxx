@@ -11,6 +11,8 @@ add_executable(testcases
         ${PROJECT_SOURCE_DIR}/src/tree_node.cpp
         test_koko_eating_bananas.cpp
         ${PROJECT_SOURCE_DIR}/src/koko_eating_bananas.cpp
+        test_edit_distance.cpp
+        ${PROJECT_SOURCE_DIR}/src/edit_distance.cpp
 )
 
 target_link_libraries(testcases
