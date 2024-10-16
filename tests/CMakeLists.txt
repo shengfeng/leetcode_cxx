@@ -13,6 +13,8 @@ add_executable(testcases
         ${PROJECT_SOURCE_DIR}/src/koko_eating_bananas.cpp
         test_edit_distance.cpp
         ${PROJECT_SOURCE_DIR}/src/edit_distance.cpp
+        test_lru_cache.cpp
+        ${PROJECT_SOURCE_DIR}/src/lru_cache.cpp
 )
 
 target_link_libraries(testcases
