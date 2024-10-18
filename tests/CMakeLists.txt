@@ -15,6 +15,9 @@ add_executable(testcases
         ${PROJECT_SOURCE_DIR}/src/edit_distance.cpp
         test_lru_cache.cpp
         ${PROJECT_SOURCE_DIR}/src/lru_cache.cpp
+        test_reverse_linked_list.cpp
+        ${PROJECT_SOURCE_DIR}/src/list_node.cpp
+        ${PROJECT_SOURCE_DIR}/src/reverse_linked_list.cpp
 )
 
 target_link_libraries(testcases
