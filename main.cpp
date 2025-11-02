@@ -1,6 +1,7 @@
 #include <iostream>
 #include "basic_calculator.h"
 #include "binary_tree_right_side_view.h"
+#include "three_sum.h"
 
 int main() {
     string input = "(1+(4+5+2)-3)+(6+8)";
