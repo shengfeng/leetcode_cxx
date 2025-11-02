@@ -8,7 +8,7 @@ set(CMAKE_CXX_STANDARD 17)
 #set(CMAKE_OSX_ARCHITECTURES arm64)
 
 include_directories(
-        ${PROJECT_SOURCE_DIR}/include
+    ${PROJECT_SOURCE_DIR}/include
 )
 
 enable_testing()
@@ -20,4 +20,5 @@ add_executable(leetcode
         src/basic_calculator.cpp
         src/binary_tree_right_side_view.cpp
         src/tree_node.cpp
+        src/three_sum.cpp
 )
